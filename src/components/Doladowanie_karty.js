@@ -5,11 +5,12 @@ import Stopka from "./Stopka"
 function Doladowanie_karty() {
     return (
       <div id="doladowanie_karty">
-      Karta wczytana poprawnie, naciśnij przycisk, aby przejść dalej
+        <div class="bilety">
+        Karta wczytana poprawnie, naciśnij przycisk, aby przejść dalej
         <Link to="/platnosc">
             <button>DALEJ</button>
-
         </Link>
+        </div>
         <Stopka />
       </div>
     );

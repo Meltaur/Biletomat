@@ -7,6 +7,7 @@ import Jednorazowy from './components/Jednorazowy'
 import Całodobowy from './components/Calodobowy'
 import Trzydniowy from './components/Trzydniowy'
 import Miesieczny from './components/Miesieczny'
+import Doladowanie_karty from './components/Doladowanie_karty'
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/gdynia" element={<Gdynia/>} />
           <Route path="/metropolitalny" element={<Metropolitalny/>} />
           <Route path="/karta" element={<Karta/>} />
+          <Route path="/doladowanie_karty" element={<Doladowanie_karty/>} />"
           <Route path="/platnosc" element={<Platnosc/>} />
           <Route path="/metropolitalny/1raz" element={<Jednorazowy/>} />
           <Route path="/metropolitalny/24h" element={<Całodobowy/>} />

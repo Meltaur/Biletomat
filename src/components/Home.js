@@ -11,7 +11,7 @@ function Home() {
           <button>Metropolitalny</button>
         </Link>
         <Link to="/karta">
-          <button>Karta miejeska</button>
+          <button>Karta miejska</button>
         </Link>
     </div>
   );

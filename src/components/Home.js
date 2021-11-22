@@ -1,27 +1,24 @@
-
 import { Link } from 'react-router-dom'
+import Header from './Header';
+import { useTranslation } from 'react-i18next'
 
 function Home() {
+  const { t, i18n } = useTranslation() 
   return (
     <div id="home">
-      <center><h1>BILETOMAT MIASTA GDYNIA</h1></center>
+      <Header />
+      <center><h1>{t('przywitanie.label')}</h1></center>
       <div class="bilety">
         <Link to="/gdynia">
-          <button>Gdynia</button>
+          <button>{t('gdynia.label')}</button>
         </Link>
         <Link to="/metropolitalny">
-          <button>Metropolitalny</button>
+          <button>{t('metropolitalny.label')}</button>
         </Link>
         <Link to="/karta">
-          <button>Karta miejeska</button>
+          <button>{t('karta_miejska.label')}</button>
         </Link>
       </div>
-      <div class="jezyk">
-          <button>ANG</button>
-          <button>DE</button>
-          <button>RU</button>
-          <button>FR</button>
-        </div>
     </div>
   );
 }

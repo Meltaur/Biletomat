@@ -1,13 +1,18 @@
 import { Link } from 'react-router-dom'
 import Stopka from "./Stopka"
+import Header from './Header';
+import { useTranslation } from 'react-i18next';
+
 
 function Karta() {
+    const { t, i18n } = useTranslation() 
     return (
       <div id="karta">
+        <Header />
         <div class="bilety">
-        PRZYŁÓŻ KARTĘ  
+        {t('komunikat_przyloz.label')}  
         <Link to="/doladowanie_karty">      
-          <button>Roboczo</button>
+          <button>{t('wczytaj_przycisk.label')}</button>
         </Link>
         </div>
         <Stopka />

@@ -21,33 +21,43 @@ h1
 {
     width: calc(48in / 5);
 }
-.bilety:not(#home .bilety){
-    height: 75%;
+
+#Header{
+    height: 10%;
+    border-bottom: 3px solid black;
+    background-color: red;
+}
+
+#Stopka
+{
+    height: 20%;
+    background-color: red;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 3px solid black;
+    
+}
+
+#platnosc
+{
+    height: 69.1%;   
+}
+
+.bilety:not(#home .bilety){
+    height: 69.1%;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 #home .bilety
 {
     height: 65%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
-.jezyk
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.jezyk button
-{
-    width: 150px;
-    height: 80px;
-    border-radius: 20px;
-    background-color:lightblue;
-    margin-left:15px;
-}
+
 
 .bilety:not(#metropolitalny .bilety) div{
     display: flex;
@@ -57,6 +67,7 @@ h1
     border-style: solid;
     margin:15px;
     padding: 15px;
+    height: 85%;
 }
 #metropolitalny .bilety div{
     display: flex;
@@ -66,31 +77,67 @@ h1
     border-style: solid;
     margin:5px;
     padding: 0px;
+    height: 85%;
 }
 
 .bilety  button
 {
     width: 210px;
     height: 95px;
-    margin: 5px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 
-#Stopka
-{
-    height: 25%;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-style: solid;
-}
+
 #Stopka button
 {
     width: 190px;
     height: 110px;
-    margin: 80px;
     border-radius: 20px;
     background-color:lightblue;
+    cursor: pointer;
+}
+
+
+#tabelka{
+    display: flex;
+    height: 75%;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.scoreboardTable {
+    padding: 0;
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    }
+.scoreboardTableHeaderRow {
+    font-weight: bold;
+    height: 50px;
+    }
+.scoreboardTableBodyRow:nth-child(odd){background-color: rgba(128, 128, 128, 0.050);}
+.scoreboardTable tr td {
+    height: 50px;
+    }
+a:-webkit-any-link{
+    width: 190px;
+    height: 110px;
+    cursor: pointer;
+}
+
+.plus_minus{
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+}
+
+#flaga{
+    background-color: red;
+    border: none;
+    cursor: pointer;
 }

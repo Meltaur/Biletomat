@@ -13,11 +13,14 @@ import TrzydniowyN from './components/TrzydniowyN'
 import MiesiecznyN from './components/MiesiecznyN'
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import Doladowanie_karty from './components/Doladowanie_karty'
+import './i18n'
+import React, { Suspense } from 'react'
 
 function App() {
   return (
+    <Suspense fallback={null}>
     <div id="container">
-
+      
       <Router>
         <Routes>
           <Route path="/home" element={<Home/>} />
@@ -37,6 +40,7 @@ function App() {
         </Routes>
       </Router>
     </div>
+    </Suspense>
   );
 }
 

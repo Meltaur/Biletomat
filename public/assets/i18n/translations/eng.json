@@ -1,0 +1,31 @@
+{
+    "przywitanie.label": "GDYNIA TICKET MACHINE",
+    "gdynia.label": "Gdynia",
+    "metropolitalny.label": "Metropolitan",
+    "karta_miejska.label": "Metropolitan card",
+    "ulgowe.label": "Reduced-fare ticket",
+    "normalne.label": "Full-fare ticket",
+    "1razowe.label": "Single ticket",
+    "1godzinne.label": "1-Hour ticket",
+    "12godzinne.label": "12-Hours ticket",
+    "24godzinne.label": "24-Hour ticket",
+    "72godzinne.label": "72-hour ticket",
+    "regular.label": "Regular and night bus",
+    "fast.label": "Regular, night and express bus",
+    "miesieczne.label" : "Monthly ticket",
+    "komunalne.label": "Municipal",
+    "kolejowo_komunalne.label": "Rail and municipal",
+    "kolejowo_komunalne_2.label": "Rail and municipal of two organizers",
+    "kolejowo_komunalne_all.label": "Rail and municipal of all organizers",
+    "ekran_startowy.label": "Home",
+    "powrot.label": "Back",
+    "platnosc.label": "Payment",
+    "komunikat_przyloz.label": "Put the card near the reader please. ",
+    "wczytaj_przycisk.label": "Next",
+    "komunikat_odczyt.label": "Card read succesfully. Click the button to go to the next screen.",
+    "dalej.label": "Next",
+    "N24hkomunalny.label": "METROPOLITALNY, CALODOBOWY_KOMU, NORMALNY"
+
+}
+
+
